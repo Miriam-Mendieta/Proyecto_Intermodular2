@@ -22,7 +22,7 @@ Los proyectos se trabajan mediante la metodología **SCRUM** y GIT/GitHub para e
 | Recursos del Proyecto | Enlaces de Acceso |
 | :--- | :--- |
 | 📖 Documentación | [Ver en GitHub](https://github.com/Miriam-Mendieta/Proyecto_Intermodular2/tree/main/PROYECTO1-ZeertyDigital) |
-| 💻 Código Fuente | [Ver Repositorio](https://github.com/Miriam-Mendieta/zeertyDigitalWeb) |             
+| 💻 Código Fuente | [Ver Repositorio](https://github.com/Miriam-Mendieta/zeertyDigitalApp) |          
  
  
 ### 🔹 Proyecto 2:[]()
