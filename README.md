@@ -22,12 +22,7 @@ Los proyectos se trabajan mediante la metodología **SCRUM** y GIT/GitHub para e
 | Recursos del Proyecto | Enlaces de Acceso |
 | :--- | :--- |
 | 📖 Documentación | [Ver en GitHub](https://github.com/Miriam-Mendieta/Proyecto_Intermodular2/tree/main/PROYECTO1-ZeertyDigital) |
-| 💻 Código Fuente | [Ver Repositorio](https://github.com/Miriam-Mendieta/zeertyDigitalApp) |          
- 
- 
-### 🔹 Proyecto 2:[]()
-### 🔹 Proyecto 3: []()
----
+| 💻 Código Fuente | [Ver Repositorio](https://github.com/Miriam-Mendieta/zeertyDigitalApp) |
 
 🛠️ Stack Tecnológico
 <br>
@@ -42,14 +37,39 @@ Los proyectos se trabajan mediante la metodología **SCRUM** y GIT/GitHub para e
 | **Eclipse / VS Code**      | Entorno de desarrollo                |
 | **Git / GitHub**           | Control de versiones                 |
 
+<br>
+ 
+ ---
+### 🔹 Proyecto 2: **K-reto** <img width="30" height="30" alt="logoREdoncoSF" src="https://github.com/user-attachments/assets/a564b92d-4fde-4198-872c-80fe9210964d" />
 
+| Recursos del Proyecto | Enlaces de Acceso |
+| :--- | :--- |
+| 📖 Documentación | [Ver en GitHub](https://github.com/Miriam-Mendieta/Proyecto_Intermodular2/tree/main/PROYECTO2_K-reto) |
+| 💻 Código Fuente | [Ver Repositorio]() |
+
+
+🛠️ Stack Tecnológico
+<br>
+
+| Herramienta                | Uso Principal                        |
+| -------------------------- | ------------------------------------ |
+| **Kotlin**                 | Lenguaje de programación             |
+| **Jetpack Compose**        | Framework                            |
+| **Mysql**                  | Base de Datos                        |
+| **Figma**                  | Diseño gráfico y prototipado (UI/UX) |
+| **Eclipse / VS Code**      | Entorno de desarrollo                |
+| **Git / GitHub**           | Control de versiones                 |
 
 <br>
 
+### 🔹 Proyecto 3: 
+
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/aa00116b-82be-4a59-9d8b-49728fc7a95b" alt="LogoMiriam" width="300" height="300" />
+ Autora: Miriam Mendieta.- 
 </p>
-Autora: Miriam Mendieta.- 
+
 
 
 
