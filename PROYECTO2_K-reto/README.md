@@ -1,8 +1,13 @@
-# K-Reto
-
-**K-Reto** es una aplicación móvil nativa para **Android** desarrollada en **Kotlin** con **Jetpack Compose** y **Material Design 3**, diseñada para facilitar la iniciación y consolidación de los fundamentos de Kotlin mediante **gamificación**, **microaprendizaje** y retroalimentación educativa inmediata.
+<div align="center">
+  <img width="250" height="250" alt="logoRedondoSF" src="https://github.com/user-attachments/assets/136ba8fd-979e-472a-b830-1d36f3df09f3" />
+ 
+  <p><strong>Juega – Aprende – Supérate</strong></p>
+</div>
 
 ---
+
+Aplicación mobile nativa para **Android** desarrollada en **Kotlin** con **Jetpack Compose** y **Material Design 3**, diseñada para facilitar la iniciación y consolidación de los fundamentos de Kotlin mediante **gamificación**, **microaprendizaje** y retroalimentación educativa inmediata.
+
 
 ## Planteamiento y objetivos
 
@@ -57,7 +62,6 @@ Cada ronda combina distintos formatos de tarjeta para mantener el dinamismo:
 | **Contenido local** | **JSON en `assets`** | Banco de preguntas y explicaciones de lectura rápida sin consumo adicional de datos. |
 | **IDE y build** | **Android Studio (Gradle)** | Desarrollo, compilación y pruebas en emulador o dispositivo físico. |
 
-> **Coste de infraestructura:** El uso del plan gratuito (**Plan Spark**) de Firebase permite operar sin coste inicial (`0 €`) dentro de sus cuotas diarias.
 
 ---
 
@@ -68,7 +72,7 @@ Cada ronda combina distintos formatos de tarjeta para mantener el dinamismo:
 ```text
 +-----------------------------------------------------------------------+
 |                           UI (Jetpack Compose)                        |
-|  Pantallas: Home, Niveles, Juego (Retos 3 opciones), Acierto/Fallo,  |
+|  Pantallas: Home, Niveles, Juego (Retos 3 opciones), Acierto/Fallo,   |
 |             Resumen de Ronda, Ranking Top 10 (Material Design 3)      |
 +-----------------------------------^-----------------------------------+
                                     | Observa StateFlow / Eventos UI
@@ -76,24 +80,24 @@ Cada ronda combina distintos formatos de tarjeta para mantener el dinamismo:
 +-----------------------------------------------------------------------+
 |                       ViewModel (Estado y Lógica)                     |
 |  - Gestión de ronda, temporizador/progreso y evaluación de respuestas |
-|  - Cálculo de puntuación (+10 / -5) y desbloqueo de niveles          |
-|  - Corrutinas para llamadas asíncronas y actualización reactiva        |
+|  - Cálculo de puntuación (+10 / -5) y desbloqueo de niveles           |
+|  - Corrutinas para llamadas asíncronas y actualización reactiva       |
 +-----------------------------------^-----------------------------------+
                                     | Llama a casos de uso / repositorios
                                     v
 +-----------------------------------------------------------------------+
-|                        Repositorios y Fuentes de Datos               |
+|                        Repositorios y Fuentes de Datos                |
 |                                                                       |
-|   +-------------------------------+   +-----------------------------+   |
-|   | Firebase Auth + Cloud         |   | JSON Local (assets)         |   |
-|   | Firestore (NoSQL)             |   | Banco de preguntas y        |   |
-|   | - Perfiles y XP/puntuación    |   | explicaciones por nivel y   |   |
-|   | - Estado de desbloqueo        |   | formato (lectura rápida)    |   |
-|   | - Ranking Top 10 en tiempo    |   +-----------------------------+   |
+|   +-------------------------------+   +-----------------------------+ |
+|   | Firebase Auth + Cloud         |   | JSON Local (assets)         | |
+|   | Firestore (NoSQL)             |   | Banco de preguntas y        | |
+|   | - Perfiles y XP/puntuación    |   | explicaciones por nivel y   | |
+|   | - Estado de desbloqueo        |   | formato (lectura rápida)    | |
+|   | - Ranking Top 10 en tiempo    |   +-----------------------------+ |
 |   |   real                        |                                   |
 |   +-------------------------------+                                   |
 +-----------------------------------------------------------------------+
-
+```
 ### Estructura de carpetas del proyecto (Android / Kotlin-Jetpack Compose)
 
 ```text
@@ -125,7 +129,7 @@ k-reto/
 │                   ├── components/    # Tarjeta reto, 3 botones, barra progreso, feedback
 │                   └── theme/         # Tipografía (incl. código monoespaciado) y Material 3
 └── README.md
-
+```
 ### Gestión del proyecto y planificación
 * Control de versiones: Git y GitHub con historial de commits descriptivos.
 
@@ -146,7 +150,7 @@ git clone [https://github.com/](https://github.com/)<usuario>/<repositorio>.git
 
 4. Espera la sincronización de Gradle y ejecuta en un emulador o dispositivo Android (Run > Run 'app').
 
-
+---
 <div align="center">
 
 ###  **Proyecto Intermodular - Grado Superior DAM (Desarrollo de Aplicaciones Multiplataforma)**
